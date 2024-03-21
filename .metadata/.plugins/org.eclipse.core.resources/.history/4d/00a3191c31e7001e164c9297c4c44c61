@@ -1,0 +1,26 @@
+package edu.kh.servlet.controller;
+
+import java.io.IOException;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+// Tomcat 9 이전은 javax
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+// Controller : 요청(Request)에 따라 어떤 Service 를 호출할지 "제어"하고,
+//              어떻게 응답(Response)을 할지 "제어"하는 역할
+// 시작과 끝
+public class ExampleController1 extends HttpServlet{
+	/* 클라이언트 --요청--> 서버(Controller -> Service -> DAO -> DB) */
+	
+	// Servlet 이용하기 위해서 상속
+	
+	// 상속 받아서 ctrl + space 누르면 오버라이딩 된 메서드들 뜸
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		super.doGet(req, resp);
+	}
+	
+}

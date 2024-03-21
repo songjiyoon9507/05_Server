@@ -1,0 +1,8 @@
+package edu.kh.servlet.controller;
+
+import jakarta.servlet.http.HttpServlet;
+
+public class ExampleController2 extends HttpServlet{
+	// Servlet 으로 이용하기 위해서는 상속 받아야함
+	
+}

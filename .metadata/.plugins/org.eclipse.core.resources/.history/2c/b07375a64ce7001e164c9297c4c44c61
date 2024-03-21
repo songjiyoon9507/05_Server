@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>회원가입결과</title>
+	</head>
+	
+	<body>
+	        <h3 style="color: pink;">홍길동님의 가입을 환영합니다.</h3>
+	    
+	        <ul>
+	            <li>id : user01</li>
+	            <li>pw : pass01</li>
+	        </ul>
+	    
+	        <h4>자기소개</h4>
+	        <p>안녕하세요?</p>
+	        
+	        <%-- JSP 주석
+	        
+	        	<%@ %> : 지시자태그 (JSP 페이지의 전반적 속성을 설정하는데 사용하는 태그)
+	        
+	         --%>
+	</body>
+</html>
