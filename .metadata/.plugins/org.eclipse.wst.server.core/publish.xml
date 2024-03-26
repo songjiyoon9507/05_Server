@@ -3,4 +3,5 @@
   <server id="ServletProject" path="publish0.dat"/>
   <server id="JSP1" path="publish1.dat"/>
   <server id="JSP2" path="publish2.dat"/>
+  <server id="todolist server" path="publish3.dat"/>
 </publish-info>

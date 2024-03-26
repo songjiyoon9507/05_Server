@@ -148,5 +148,34 @@
 	 
 	<a href="loop">JSTL을 이용한 반복문</a>
 	<%-- /jstl/loop 라는 요청을 처리할 Controller 가 필요함 : JSTLLoopController --%>
+	
+	<hr><hr><hr>
+	
+	<%-- DB 연결 방법 (조금 다름) java project 와 dynamic web project는 배포 방식이 다름
+	webapp 폴더가 배포되는 거 war(웹 아카이브) 파일로 압축돼서 배포
+	webapp 폴더 안에 WEB-INF 안에 lib 폴더에 ojdbc10.jar 파일 drag & drop
+	src/main/java 안에 패키지 만들어서 JDBCTemplate 복사해오고
+	driver.xml, query.xml 복사해옴
+	xml 파일 path가 달라짐 JDBCTemplate에 경로 설정 방법 적어둠--%>
+	
+	<%-- 현재 경로 : localhost:8080/jstl/main
+		목표 경로 : localhost:8080/jstl/student/selectAll
+	 --%>
+	<a href="student/selectAll">workbook에서 학생 전체 조회하기</a>
+	<%-- student/selectAll 라는 요청을 처리할 Controller : SelectAllController --%>
+	
+	<%-- 현재 경로 : localhost:8080/jstl/main
+		목표 경로 : localhost:8080/jstl/student/selectArch  --%>
+	<a href="student/selectArch">workbook에서 건축공학과인 학생만 찾기</a>
+	<%-- SelectArchController --%>
+	
+	<%-- 현재 경로 : localhost:8080/jstl/main
+		목표 경로 : localhost:8080/jstl/student/selectOne  --%>
+	<form action="student/selectOne" method="post">
+		<input type="text" name="deptName">
+		<button>찾기</button>
+	</form>
+	
+	<%-- 작성한 학과의 학생만 조회 SelectOneController --%>
 </body>
 </html>
