@@ -19,6 +19,4 @@ public class Member {
 	private String arrivals; // 도착지
 	private String departureTime; // 출발 시간
 	private int reserveSeatNo; // 예약한 좌석
-	
-	// 아이디, 비밀번호를 받아야함
 }
