@@ -12,6 +12,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\workspace\05_Server\TodoList"/>
 			<item value="C:\workspace\05_Servlet\TodoList"/>
 			<item value="C:\workspace\05_Server\BusReservationProject"/>
 			<item value="C:\workspace\05_Servlet"/>
@@ -52,9 +53,11 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\workspace\05_Server\TodoList"/>
 			<item value="C:\workspace\05_Servlet\TodoList"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\workspace\JAVA\BusReservation\query.xml"/>
 			<item value=""/>
 		</list>
 		<section name="ExternalProjectImportWizard.dialogBounds">
