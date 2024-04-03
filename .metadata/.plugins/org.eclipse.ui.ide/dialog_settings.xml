@@ -25,7 +25,7 @@
 			<item value="C:\workspace\05_Server"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="-38"/>
+			<item key="DIALOG_X_ORIGIN" value="167"/>
 			<item key="DIALOG_Y_ORIGIN" value="186"/>
 			<item key="DIALOG_WIDTH" value="888"/>
 			<item key="DIALOG_HEIGHT" value="629"/>
@@ -53,15 +53,15 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="C:\workspace\05_Server\TodoList"/>
 			<item value="C:\workspace\05_Servlet\TodoList"/>
+			<item value="C:\workspace\05_Server\TodoList"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value="C:\workspace\JAVA\BusReservation\query.xml"/>
 			<item value=""/>
 		</list>
 		<section name="ExternalProjectImportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="119"/>
+			<item key="DIALOG_X_ORIGIN" value="221"/>
 			<item key="DIALOG_Y_ORIGIN" value="186"/>
 			<item key="DIALOG_WIDTH" value="617"/>
 			<item key="DIALOG_HEIGHT" value="710"/>
