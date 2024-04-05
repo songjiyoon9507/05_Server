@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <temp-directories>
-  <temp-directory age="0" key="ServletProject" path="tmp0" recycle="false"/>
-  <temp-directory age="0" key="JSP1" path="tmp1" recycle="false"/>
-  <temp-directory age="0" key="JSP2" path="tmp2" recycle="false"/>
-  <temp-directory age="0" key="todolist server" path="tmp3" recycle="false"/>
+  <temp-directory age="0" key="Tomcat v10.1 Server at localhost" path="tmp0" recycle="false"/>
 </temp-directories>
